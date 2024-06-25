@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: border-box;
+    font-family: Arial,Helvetica, sans-serif;
+
+}
+:root {
+	--color-ffffff: #ffffff;
+	--color-f3f3f3: #f3f3f3;
+	--color-dbdbdb: #dbdbdb;
+	--color-c4c4c4: #c4c4c4;
+	--color-bababa: #bababa;
+	--color-666666: #666666;
+	--color-777777: #777777;
+	--color-999999: #999999;
+	--color-adff2f: #adff2f;
+	--color-75a5cb: #75a5cb;
+	--color-3a91d8: #3a91d8;
+	--color-ecd2d2: #ecd2d2;
+	--color-e7a1a1: #e7a1a1;
+	--color-d76666: #d76666;
+	--color-ff0000: #ff0000;
+	--color-333333: #333333;
+	--color-000000: #000000;
+}
+
+
+body {
+    background-color: var(--color-333333);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    height: 100vh;
+}
+header{
+    border-bottom: 1px solid var(--color-d76666);
+margin-top: 15px;
+margin-bottom: 5px;
+padding: 3px 3px;
+
+}
+.class-container {
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 100%;
+}
+#id-calculator{
+    width: 400px;
+    padding: 0.5;
+    background-color: var(--color-c4c4c4);
+    color: var(--color-000000);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px; 
+    border: 1px; 
+}
+#id-calculator h3 {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--color-666666)
+    ;
+}
+#id-operations {
+    text-align: right;
+}
+#id-previous-operation {
+color: var(--color-777777);
+padding: 0.2em;
+overflow-wrap: break-word;
+min-height: 1.6em;
+}
+#id-current-operation{
+    min-height: 1.5;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    
+}
+
+
